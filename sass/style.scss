@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+@import "libs/mixin";
+@import "libs/fonts";
+@import "libs/animated";
+@import "_header";
+@import "_familiarization";
+@import "_advantages";
+@import "_organic";
+@import "_pineapple";
+@import "_adds";
+@import "_forms";
+@import "_footer";
+@import "_media";
+@import "_qa";
